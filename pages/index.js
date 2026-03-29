@@ -9,8 +9,8 @@ export async function getStaticProps() {
     props: {
       eventBabyName: process.env.EVENT_BABY_NAME  || 'Saiah Alisbo',
       eventDay:      process.env.EVENT_DAY        || 'Sunday',
-      eventDate:     process.env.EVENT_DATE        || 'April 21',
-      eventTime:     process.env.EVENT_TIME        || '11:00 AM',
+      eventDate:     process.env.EVENT_DATE        || 'April 19',
+      eventTime:     process.env.EVENT_TIME        || '3:00 PM',
       eventLocation: process.env.EVENT_LOCATION   || 'Bagong Parañaque Phase III, Open Court',
       dressCode:     process.env.EVENT_DRESS_CODE || 'Nude Browns & Pastels',
     },
@@ -129,7 +129,7 @@ export default function Home({ eventBabyName, eventDay, eventDate, eventTime, ev
               <div className={styles.dateLine} />
               <div className={styles.dateCenter}>
                 <span className={styles.dateMonth}>APRIL</span>
-                <span className={styles.dateDay}>21</span>
+                <span className={styles.dateDay}>19</span>
                 <span className={styles.dateTime}>{eventTime}</span>
               </div>
               <div className={styles.dateLine} />
