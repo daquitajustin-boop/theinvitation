@@ -18,8 +18,8 @@ export default async function handler(req, res) {
   // Event details from env
   const babyName  = process.env.EVENT_BABY_NAME  || 'Saiah Alisbo';
   const eventDay  = process.env.EVENT_DAY        || 'Sunday';
-  const eventDate = process.env.EVENT_DATE        || 'April 21';
-  const eventTime = process.env.EVENT_TIME        || '11:00 AM';
+  const eventDate = process.env.EVENT_DATE        || 'April 19';
+  const eventTime = process.env.EVENT_TIME        || '2 PM';
   const location  = process.env.EVENT_LOCATION   || 'Bagong Parañaque Phase III, Open Court';
   const dresscode = process.env.EVENT_DRESS_CODE || 'Nude Browns & Pastels';
 
