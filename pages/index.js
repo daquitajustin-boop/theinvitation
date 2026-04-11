@@ -10,7 +10,7 @@ export async function getStaticProps() {
       eventBabyName: process.env.EVENT_BABY_NAME  || 'Saiah Alisbo',
       eventDay:      process.env.EVENT_DAY        || 'Sunday',
       eventDate:     process.env.EVENT_DATE        || 'April 19',
-      eventTime:     process.env.EVENT_TIME        || '3:00 PM',
+      eventTime:     process.env.EVENT_TIME        || '10:00 AM',
       eventLocation: process.env.EVENT_LOCATION   || 'Bagong Parañaque Phase III, Open Court',
       dressCode:     process.env.EVENT_DRESS_CODE || 'Nude Browns & Pastels',
     },
